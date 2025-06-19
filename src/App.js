@@ -1,4 +1,5 @@
 import './App.css';
+import UseMemo from './UseMemo';
 import UseRef from './UseRef';
 import UseRefHook from './UseRefHook';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <h1>Learning react</h1>
       {/* <UseRefHook /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseMemo />
     </div>
   );
 }
