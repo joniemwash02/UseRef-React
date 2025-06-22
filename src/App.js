@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Learning react</h1>
-      {/* <UseRefHook /> */}
-      <UseRef />
+  
     </div>
   );
 }
